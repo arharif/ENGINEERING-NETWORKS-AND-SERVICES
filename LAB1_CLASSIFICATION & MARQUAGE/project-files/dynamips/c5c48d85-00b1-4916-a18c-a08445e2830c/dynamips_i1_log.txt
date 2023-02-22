@@ -1,0 +1,10 @@
+Feb 21 02:37:41.249 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 21 02:37:41.259 HYPERVISOR: Started on IP = localhost, TCP port = 58673.
+Feb 21 02:37:41.259 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 21 02:37:41.259 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\Desktop\S4\0 Ingénierie réseaux et services\LABs\QOS-Classification-Marquage\project-files\dynamips 
+Feb 21 02:37:41.259 GENERAL: working_dir=C:\Users\hp\Desktop\S4\0 Ingénierie réseaux et services\LABs\QOS-Classification-Marquage\project-files\dynamips
+Feb 21 02:37:41.259 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Feb 21 02:37:42.758 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Feb 21 02:37:42.758 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 21 02:37:42.778 HYPERVISOR: Stopped.
+Feb 21 02:37:42.778 GENERAL: reset done.

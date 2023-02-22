@@ -1,0 +1,30 @@
+Feb 21 21:46:09.120 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Feb 21 21:46:09.122 HYPERVISOR: Started on IP = localhost, TCP port = 63439.
+Feb 21 21:46:09.611 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 21 21:46:09.612 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\hp\Desktop\S4\0 Ingénierie réseaux et services\LABs\QOS-Classification-Marquage\project-files\dynamips 
+Feb 21 21:46:09.612 GENERAL: working_dir=C:\Users\hp\Desktop\S4\0 Ingénierie réseaux et services\LABs\QOS-Classification-Marquage\project-files\dynamips
+Feb 21 21:46:09.612 HYPERVISOR: exec_cmd: ethsw create Switch2 
+Feb 21 21:46:11.675 HYPERVISOR: exec_cmd: nio create_udp udp-0adca048-50bf-4bb0-a6b9-94dc489bb4e9 10005 127.0.0.1 10004 
+Feb 21 21:46:11.675 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-0adca048-50bf-4bb0-a6b9-94dc489bb4e9 
+Feb 21 21:46:11.688 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-0adca048-50bf-4bb0-a6b9-94dc489bb4e9 1 
+Feb 21 21:46:11.775 HYPERVISOR: exec_cmd: nio create_udp udp-7a45075d-b9ed-41eb-a152-e2501e922790 10007 127.0.0.1 10006 
+Feb 21 21:46:11.776 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-7a45075d-b9ed-41eb-a152-e2501e922790 
+Feb 21 21:46:11.794 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-7a45075d-b9ed-41eb-a152-e2501e922790 1 
+Feb 21 21:46:11.900 HYPERVISOR: exec_cmd: nio create_udp udp-473dda25-745d-4801-9398-88fc1005f3d1 10009 127.0.0.1 10008 
+Feb 21 21:46:11.901 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-473dda25-745d-4801-9398-88fc1005f3d1 
+Feb 21 21:46:11.901 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-473dda25-745d-4801-9398-88fc1005f3d1 1 
+Feb 21 21:46:13.370 HYPERVISOR: exec_cmd: nio create_udp udp-d9e478e4-6991-467b-bb5b-6f59627d5f42 10021 127.0.0.1 10020 
+Feb 21 21:46:13.371 HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-d9e478e4-6991-467b-bb5b-6f59627d5f42 
+Feb 21 21:46:13.401 HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-d9e478e4-6991-467b-bb5b-6f59627d5f42 1 
+Feb 21 22:42:09.573 HYPERVISOR: exec_cmd: nio bind_filter udp-d9e478e4-6991-467b-bb5b-6f59627d5f42 2 capture 
+Feb 21 22:42:09.574 HYPERVISOR: exec_cmd: nio setup_filter udp-d9e478e4-6991-467b-bb5b-6f59627d5f42 2 en10mb C:\Users\hp\Desktop\S4\0 Ingénierie réseaux et services\LABs\QOS-Classification-Marquage\project-files\captures\Casa_FastEthernet00_to_Switch2_Ethernet3.pcap 
+Feb 21 22:44:11.296 HYPERVISOR: exec_cmd: nio unbind_filter udp-d9e478e4-6991-467b-bb5b-6f59627d5f42 2 
+Feb 21 23:11:29.326 HYPERVISOR: exec_cmd: nio bind_filter udp-d9e478e4-6991-467b-bb5b-6f59627d5f42 2 capture 
+Feb 21 23:11:29.326 HYPERVISOR: exec_cmd: nio setup_filter udp-d9e478e4-6991-467b-bb5b-6f59627d5f42 2 en10mb C:\Users\hp\Desktop\S4\0 Ingénierie réseaux et services\LABs\QOS-Classification-Marquage\project-files\captures\Casa_FastEthernet00_to_Switch2_Ethernet3.pcap 
+Feb 21 23:21:11.125 HYPERVISOR: exec_cmd: nio unbind_filter udp-d9e478e4-6991-467b-bb5b-6f59627d5f42 2 
+Feb 21 23:21:14.484 HYPERVISOR: exec_cmd: nio bind_filter udp-d9e478e4-6991-467b-bb5b-6f59627d5f42 2 capture 
+Feb 21 23:21:14.484 HYPERVISOR: exec_cmd: nio setup_filter udp-d9e478e4-6991-467b-bb5b-6f59627d5f42 2 en10mb C:\Users\hp\Desktop\S4\0 Ingénierie réseaux et services\LABs\QOS-Classification-Marquage\project-files\captures\Casa_FastEthernet00_to_Switch2_Ethernet3.pcap 
+Feb 21 23:43:42.745 HYPERVISOR: exec_cmd: ethsw delete Switch2 
+Feb 21 23:43:42.866 HYPERVISOR: exec_cmd: hypervisor stop 
+Feb 21 23:43:43.053 HYPERVISOR: Stopped.
+Feb 21 23:43:43.055 GENERAL: reset done.
