@@ -1,5 +1,5 @@
 # GNS3
-# ---- Getting starting in natworking GNS3
+# ---- Getting starting in networking GNS3
 https://yaser-rahmati.gitbook.io/gns3/lab-3-configure-static-route-in-gns3
 # ---- Labs Quality Of Service (QOS)
 # LAB1_CLASSIFICATION & MARQUAGE
