@@ -1,1 +1,0 @@
-https://yaser-rahmati.gitbook.io/gns3/lab-3-configure-static-route-in-gns3
